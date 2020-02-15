@@ -1,0 +1,2 @@
+#! /bin/bash
+docker run -p 8080:80  --name photo-rotation -v /Users/macintosh/_WORKING_SPACE_/frontEnd/effect/photoRotation:/usr/share/nginx/html:ro -d nginx
